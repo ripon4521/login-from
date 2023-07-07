@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("https://media.istockphoto.com/id/1364286767/photo/mysterious-night-forest-landscape-with-calm-river.jpg?b=1&s=170667a&w=0&k=20&c=6gVYj9dCJNS4OxZsKW3Gla6j0qMuxHKXSRVXia63T8I=");
+  background-size: cover;
+    width: 100vh;
+
+
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+    border-radius: 5px 50px;
+}
+.box h1{
+    padding: 0px 0px 20px 0px;
+    color: white;
+    text-transform: uppercase;
+}
+.box input[type="text"], .box input[type="password"]{
+    background: none;
+    border: 0;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: aliceblue;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+.box input[type="submit"]{
+    background: none;
+    border: 0;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 40px;
+    
+    outline: none;
+    color: aliceblue;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+
+}
+.box input[type="submit"]:hover{
+    background: #2ecc71;
+}
+
